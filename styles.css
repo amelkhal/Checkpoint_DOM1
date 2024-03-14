@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.quantity-btn, .delete-btn {
+    cursor: pointer;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.like-btn {
+    margin-right: 5px;
+    background: none;
+    border: none;
+    font-size: 1.2em;
+}
+
+.like-btn.liked {
+    color: red;
+}
+
+.quantity {
+    margin: 0 5px;
+}
+
+.total {
+    font-size: 1.2em;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start; /* Aligning to the left */
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+}
+
+.cart {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.img-class {
+    max-width: 10%;
+    height: auto;
+    display: block;
+    margin: 0; /* Aligning all margins to the left */
+}
